@@ -1,0 +1,294 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>Grade 9 Physics Question Bank – Units 1 &amp; 2</title><style>
+:root{color-scheme:light dark;--bg:#f2f4fb;--cd:#fff;--tx:#1b2240;--mu:#68708f;--pr:#5b4bdb;--pr2:#8b5cf6;--ac:#06b6d4;--ok:#0f9d68;--okb:#dcf5ea;--no:#d93a50;--nob:#fde4e8;--bd:#dfe4f1;--qc:#d9480f;--qt:#fff;--sh:0 6px 20px rgba(40,50,110,.09);box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root{--bg:#0d1126;--cd:#1a2042;--tx:#eef0fb;--mu:#a3abcf;--pr:#9a90ff;--pr2:#b79cff;--ok:#3ddc97;--okb:#12382b;--no:#ff7a8c;--nob:#3d1a24;--bd:#2b3463;--qc:#ffa94d;--qt:#1a2042;--sh:0 6px 20px rgba(0,0,0,.35)}}
+*{box-sizing:border-box}html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:radial-gradient(800px 380px at 8% -4%,rgba(139,92,246,.14),transparent 62%),radial-gradient(700px 380px at 100% 2%,rgba(6,182,212,.13),transparent 62%),var(--bg);color:var(--tx);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;-webkit-user-select:none;user-select:none;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent}
+input{-webkit-user-select:text;user-select:text}
+::selection{background:transparent}
+@media print{body{display:none!important}}
+@keyframes up{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+.hero{position:relative;overflow:hidden;background:linear-gradient(135deg,#4c3fd1,#7c4dff 52%,#06b6d4);color:#fff;padding:32px 18px 72px;text-align:center}
+.hero::before,.hero::after{content:"";position:absolute;border-radius:50%;background:rgba(255,255,255,.10)}
+.hero::before{width:230px;height:230px;left:-70px;top:-90px}.hero::after{width:320px;height:320px;right:-100px;bottom:-190px}
+.hero h1{position:relative;margin:0;font-size:clamp(24px,6vw,36px);letter-spacing:-.5px}
+.atom{display:inline-block;animation:spin 14s linear infinite}
+.chips{position:relative;display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:12px}
+.chips span{background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.32);padding:4px 12px;border-radius:999px;font-size:13px;backdrop-filter:blur(4px)}
+.wrap{max-width:820px;margin:-46px auto 40px;padding:0 12px}
+.stat{position:sticky;top:8px;z-index:6;background:var(--cd);background:color-mix(in srgb,var(--cd) 90%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border:1px solid var(--bd);border-radius:18px;padding:10px 14px;display:flex;align-items:center;gap:12px;box-shadow:0 10px 28px rgba(40,50,110,.16);flex-wrap:wrap}
+.stat b{font-size:26px;color:var(--pr);line-height:1}
+.bar{flex:1;min-width:80px;height:10px;background:var(--bd);border-radius:9px;overflow:hidden}
+#bar{height:100%;width:0;background:linear-gradient(90deg,var(--pr),var(--ac));border-radius:9px;transition:width .4s}
+.rs{border:1px solid var(--bd);background:none;color:var(--mu);border-radius:10px;padding:6px 10px;cursor:pointer;font-family:inherit;font-size:14px}
+.ck{border:0;background:linear-gradient(135deg,var(--pr),var(--pr2));color:#fff;border-radius:10px;padding:7px 12px;cursor:pointer;font-family:inherit;font-weight:600;font-size:14px;box-shadow:0 4px 12px rgba(91,75,219,.35)}
+.tabs{display:flex;gap:8px;overflow-x:auto;padding:16px 2px 10px;scrollbar-width:none}.tabs::-webkit-scrollbar{display:none}
+.tabs button{flex:none;border:1px solid var(--bd);background:var(--cd);color:var(--tx);border-radius:999px;padding:8px 14px;font-family:inherit;font-weight:600;font-size:14px;cursor:pointer;box-shadow:var(--sh);transition:.15s}
+.tabs button.on{background:linear-gradient(135deg,var(--pr),var(--pr2));color:#fff;border-color:transparent;box-shadow:0 6px 16px rgba(91,75,219,.4)}
+.tabs small{opacity:.8;margin-left:6px;background:rgba(127,127,160,.18);padding:1px 7px;border-radius:999px;font-size:11px}
+.tabs button.on small{background:rgba(255,255,255,.25)}
+.pn{display:none}.pn.on{display:block}
+.ph{display:flex;gap:12px;align-items:center;margin:10px 2px 4px}
+.ph .ic{flex:none;width:42px;height:42px;border-radius:13px;display:grid;place-items:center;font-size:21px;background:linear-gradient(135deg,var(--pr),var(--pr2));box-shadow:0 6px 14px rgba(91,75,219,.3)}
+.ph h2{margin:0;font-size:19px;line-height:1.2}.ph p{margin:2px 0 0;color:var(--mu);font-size:13px;line-height:1.35}
+.q{background:var(--cd);border:1px solid var(--bd);border-radius:16px;padding:14px 14px 14px 18px;margin:12px 0;position:relative;box-shadow:var(--sh);animation:up .35s ease both}
+.q::before{content:"";position:absolute;left:0;top:14px;bottom:14px;width:4px;border-radius:0 4px 4px 0;background:linear-gradient(var(--pr),var(--ac))}
+.q p{margin:0 0 10px 34px;font-weight:600}
+.n{position:absolute;left:14px;top:12px;width:24px;height:24px;border-radius:50%;background:linear-gradient(135deg,var(--pr),var(--pr2));color:#fff;font-size:12px;display:grid;place-items:center;font-weight:700;box-shadow:0 3px 8px rgba(91,75,219,.35)}
+.o{display:grid;gap:5px}.o.two{grid-template-columns:1fr 1fr}
+.o button,.mi{border:1.5px solid var(--bd);background:var(--bg);color:var(--tx);border-radius:10px;padding:10px 12px;font-family:inherit;font-size:15px;text-align:left;cursor:pointer;transition:.15s}
+.o button{display:flex;align-items:center;gap:8px;padding:5px 10px;font-size:13px;line-height:1.3}
+.o button i{flex:none;font-style:normal;width:20px;height:20px;border-radius:50%;display:grid;place-items:center;font-size:11px;font-weight:700;background:var(--bd);color:var(--mu);transition:.15s}
+.o button:hover:not(:disabled),.mi:hover:not(:disabled){border-color:var(--pr);transform:translateY(-1px)}
+.o button.s,.mi.s{border-color:var(--pr);background:var(--pr);color:#fff}.o button.s i{background:rgba(255,255,255,.28);color:#fff}
+.o button.ok,.mi.ok{background:var(--okb);border-color:var(--ok);color:var(--ok)}.o button.ok i{background:var(--ok);color:#fff}
+.o button.no,.mi.no{background:var(--nob);border-color:var(--no);color:var(--no)}.o button.no i{background:var(--no);color:#fff}
+.o button:disabled,.mi:disabled{cursor:default}.ex{margin:8px 0 0;font-size:13px;color:var(--mu)}
+.mi .ex{color:inherit;margin-top:4px}
+.m{display:grid;grid-template-columns:1fr 1fr;gap:10px}.col{display:grid;gap:8px;align-content:start}.mi{font-size:14px;min-height:46px;box-shadow:var(--sh)}
+.mi.p{background:hsl(var(--h) 75% 50%/.22);border-color:hsl(var(--h) 70% 50%);color:var(--tx)}
+.hint{color:var(--mu);font-size:13px;margin:0 2px 8px}
+#res{display:none;background:var(--cd);border:1px solid var(--bd);border-radius:22px;padding:24px 18px;text-align:center;margin-top:18px;box-shadow:var(--sh);animation:up .4s ease both}
+.ring{width:130px;height:130px;border-radius:50%;margin:0 auto 10px;display:grid;place-items:center;background:conic-gradient(var(--pr) calc(var(--p)*1%),var(--bd) 0)}
+.ring span{width:102px;height:102px;border-radius:50%;background:var(--cd);display:grid;place-items:center;font-size:28px;font-weight:800;color:var(--pr)}
+#res h2{margin:4px 0;font-size:26px}#res p{margin:0;color:var(--mu)}
+.bk{display:grid;gap:8px;margin:16px 0 0;text-align:left}.bk div{display:grid;grid-template-columns:104px 1fr auto;gap:8px;align-items:center;font-size:13px}
+.bk i{display:block;height:8px;border-radius:6px;background:var(--bd);overflow:hidden}.bk i b{display:block;height:100%;background:linear-gradient(90deg,var(--pr),var(--ac));border-radius:6px}
+#res button{margin-top:16px;background:linear-gradient(135deg,var(--pr),var(--pr2));color:#fff;border:0;border-radius:12px;padding:10px 22px;font-family:inherit;font-weight:600;font-size:15px;cursor:pointer;box-shadow:0 6px 16px rgba(91,75,219,.35)}
+.foot{text-align:center;color:var(--mu);font-size:13px;margin-top:22px}
+.cr{display:grid;grid-template-columns:minmax(100px,38%) 1fr;gap:6px 10px;align-items:center;margin:8px 0 0 34px}.cr label{font-size:14px;font-weight:600}
+.cr input{width:100%;padding:9px 11px;border:1.5px solid var(--bd);border-radius:10px;background:var(--bg);color:var(--tx);font-size:16px}
+.cr input:focus{outline:none;border-color:var(--pr)}.cr input.ok{border-color:var(--ok);background:var(--okb);color:var(--ok)}.cr input.no{border-color:var(--no);background:var(--nob);color:var(--no)}
+.cr .ex{grid-column:1/-1;margin:0}
+@media(max-width:480px){.cr{grid-template-columns:1fr;margin-left:0}}
+.ct{padding:14px 14px 14px 18px}
+.cro{display:grid;grid-template-columns:minmax(120px,1.3fr) auto auto minmax(80px,1fr);gap:8px;align-items:center;padding:8px 0;border-top:1px solid var(--bd)}
+.cn{font-weight:800;font-size:18px;color:var(--qc)}
+.cn b{display:inline-grid;place-items:center;width:24px;height:24px;border-radius:50%;background:var(--qc);color:var(--qt);font-size:12px;margin-right:7px;vertical-align:1px}
+.sg{display:inline-flex;border:1.5px solid var(--bd);border-radius:9px;overflow:hidden}.sg button{border:0;background:var(--bg);color:var(--tx);padding:6px 9px;font-family:inherit;font-weight:600;font-size:13px;cursor:pointer}.sg button.s{background:var(--pr);color:#fff}.sg button:disabled{cursor:default}
+.sg.ok{border-color:var(--ok)}.sg.no{border-color:var(--no)}
+.cro input{width:min(100%,120px);justify-self:end;margin-right:6px;min-width:0;padding:4px 8px;border:1.5px solid var(--bd);border-radius:9px;background:var(--bg);color:var(--tx);font-size:16px}
+.cro input:focus{outline:none;border-color:var(--pr)}.cro input.ok{border-color:var(--ok);background:var(--okb);color:var(--ok)}.cro input.no{border-color:var(--no);background:var(--nob);color:var(--no)}
+.cro .ex{grid-column:1/-1;margin:0}.cro>*{min-width:0}
+@media(max-width:560px){.cro{grid-template-columns:1fr 1fr;gap:6px}
+.cn{grid-column:1;grid-row:1;font-size:16px}.cro>input{grid-column:2;grid-row:1}
+.cro>.sg:nth-child(2){grid-column:1;grid-row:2}.cro>.sg:nth-child(3){grid-column:2;grid-row:2}
+.sg{display:flex}.sg button{flex:1;padding:6px 4px}.cro .ex{grid-row:3}}
+#lock{position:fixed;inset:0;background:rgba(10,14,40,.55);backdrop-filter:blur(4px);display:none;place-items:center;z-index:50;padding:16px}
+#lock .bx{background:var(--cd);border:1px solid var(--bd);border-radius:22px;padding:24px;width:100%;max-width:340px;text-align:center;box-shadow:0 20px 50px rgba(0,0,0,.35);animation:up .25s ease both}
+#lock .lk{width:54px;height:54px;margin:0 auto 8px;border-radius:16px;display:grid;place-items:center;font-size:26px;background:linear-gradient(135deg,var(--pr),var(--pr2))}
+#lock h3{margin:0 0 4px}#lock p{margin:0 0 12px;color:var(--mu);font-size:14px}
+#pw{width:100%;padding:11px 12px;border:1.5px solid var(--bd);border-radius:11px;background:var(--bg);color:var(--tx);font-size:16px;text-align:center}
+#pw:focus{outline:none;border-color:var(--pr)}
+#err{color:var(--no);font-size:13px;min-height:20px;margin:6px 0}
+#lock .r{display:flex;gap:8px}#lock .r button{flex:1;border-radius:10px;padding:10px;font-family:inherit;font-weight:600;font-size:15px;cursor:pointer;border:1px solid var(--bd);background:none;color:var(--tx)}
+#lock .r button.go{background:linear-gradient(135deg,var(--pr),var(--pr2));border-color:transparent;color:#fff}
+
+#bg{position:fixed;inset:0;width:100%;height:100%;z-index:0;pointer-events:none}
+.wrap{position:relative;z-index:1}
+@keyframes flow{0%,100%{background-position:0 50%}50%{background-position:100% 50%}}
+@keyframes flow2{to{background-position:200% 0}}
+@keyframes drift{0%,100%{transform:translateY(0) rotate(-4deg)}50%{transform:translateY(-16px) rotate(4deg)}}
+@keyframes pop{0%{transform:scale(.95)}55%{transform:scale(1.035)}100%{transform:none}}
+@keyframes shake{0%,100%{transform:none}20%,60%{transform:translateX(-5px)}40%,80%{transform:translateX(5px)}}
+@keyframes glow{0%{box-shadow:0 0 0 0 rgba(15,157,104,.55)}100%{box-shadow:0 0 0 14px rgba(15,157,104,0)}}
+@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.07)}}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
+.hero{background-size:220% 220%;animation:flow 16s ease-in-out infinite}
+.orb{display:inline-block;width:46px;height:46px;vertical-align:-10px;margin-right:4px}
+.fm span{position:absolute;opacity:.2;font:700 clamp(14px,3.4vw,22px) ui-monospace,Menlo,Consolas,monospace;animation:drift 9s ease-in-out infinite;pointer-events:none}
+#bar{background:linear-gradient(90deg,var(--pr),var(--ac),var(--pr));background-size:200% 100%;animation:flow2 3s linear infinite}
+.tm{font-size:13px;color:var(--mu);font-variant-numeric:tabular-nums;white-space:nowrap}
+.ck.rdy{animation:pulse 1.4s ease-in-out infinite}
+.tabs button.dn::after{content:"✓";margin-left:6px;color:var(--ok);font-weight:800}.tabs button.on.dn::after{color:#fff}
+.q{transition:box-shadow .2s,border-color .2s}.q:hover{border-color:var(--pr);box-shadow:0 10px 26px rgba(91,75,219,.18)}
+.o button.s,.mi.s,.sg button.s{animation:pop .3s ease}
+.o button.ok{animation:glow .9s ease-out}.o button.no{animation:shake .4s ease}
+.ph .ic{animation:bob 3.2s ease-in-out infinite}
+.nx{display:block;margin:18px auto 4px;border:0;border-radius:999px;padding:11px 22px;font-family:inherit;font-weight:700;font-size:15px;color:#fff;cursor:pointer;background:linear-gradient(135deg,var(--pr),var(--ac));box-shadow:0 8px 20px rgba(91,75,219,.35);transition:.15s}.nx:hover{transform:translateY(-2px)}
+#toast{position:fixed;left:50%;bottom:calc(18px + env(safe-area-inset-bottom,0px));transform:translate(-50%,20px);background:var(--cd);color:var(--tx);border:1px solid var(--bd);box-shadow:0 12px 30px rgba(40,50,110,.3);padding:10px 18px;border-radius:999px;font-weight:600;font-size:14px;opacity:0;pointer-events:none;transition:.35s;z-index:40;max-width:92vw;text-align:center}#toast.on{opacity:1;transform:translate(-50%,0)}
+#cf{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:60}
+.rank{display:inline-block;margin:10px 0 4px;padding:6px 16px;border-radius:999px;background:linear-gradient(135deg,var(--pr),var(--ac));color:#fff;font-weight:700;font-size:14px}
+#res button.sec{background:none;color:var(--pr);border:1.5px solid var(--pr);box-shadow:none;margin-left:8px}
+body.rev .q:not(:has(.no)){display:none}body.rev .mi.ok{opacity:.35}body.rev .nx{display:none}
+.o:not(.two){gap:9px}.o:not(.two) button{padding:12px 14px;min-height:50px;font-size:16px;gap:12px}.o:not(.two) button i{width:28px;height:28px;font-size:14px}
+button:focus-visible,input:focus-visible{outline:3px solid var(--ac);outline-offset:2px}
+</style></head><body>
+<div class="hero"><div class="fm" aria-hidden="true"><span style="left:14px;top:8px;animation-delay:-1.5s">By: Birhanu Ba</span><span style="left:6%;top:18%">F = ma</span><span style="right:7%;top:14%;animation-delay:-3s">E = mc²</span><span style="left:12%;bottom:30%;animation-delay:-5s">v = d/t</span><span style="right:10%;bottom:34%;animation-delay:-7s">ρ = m/V</span></div><h1><svg class="orb" viewBox="-22 -22 44 44" aria-hidden="true"><g fill="none" stroke="#fff" stroke-opacity=".75" stroke-width=".9"><ellipse rx="19" ry="7"/><ellipse rx="19" ry="7" transform="rotate(60)"/><ellipse rx="19" ry="7" transform="rotate(120)"/></g><circle r="3.4" fill="#fff"/><g fill="#fff"><circle r="2"><animateMotion dur="2.4s" repeatCount="indefinite" path="M19 0A19 7 0 1 1 -19 0A19 7 0 1 1 19 0"/></circle><g transform="rotate(60)"><circle r="2"><animateMotion dur="3s" repeatCount="indefinite" path="M19 0A19 7 0 1 1 -19 0A19 7 0 1 1 19 0"/></circle></g><g transform="rotate(120)"><circle r="2"><animateMotion dur="3.6s" repeatCount="indefinite" path="M19 0A19 7 0 1 1 -19 0A19 7 0 1 1 19 0"/></circle></g></g></svg> Grade 9 Physics Question Bank</h1><div class="chips"><span>Unit 1 · Physics &amp; Human Society</span><span>Unit 2 · Physical Quantities</span></div></div>
+<div class="wrap"><div class="stat"><div><b id="score">0</b><span style="color:var(--mu)"> / <span id="tot"></span> <span id="lab">answered</span></span></div><div class="bar"><div id="bar"></div></div><span class="tm" id="tm">⏱ 0:00</span><button class="rs" id="snd" title="Sound effects" aria-label="Toggle sound">🔇</button><button class="ck" id="ckb" onclick="openLock()">🔒 Check answers</button><button class="rs" onclick="restart()">↻ Restart</button></div>
+<div class="tabs" id="tabs"></div><div id="pns"></div><div id="res"></div><div id="toast"></div><div class="foot">Grade 9 Physics · Units 1 &amp; 2 · Good luck! 🍀</div></div>
+<div id="lock"><div class="bx"><div class="lk">🔒</div><h3>Answers locked</h3><p>Enter the password to check the answers.</p><input id="pw" type="password" autocomplete="off" autocapitalize="characters" placeholder="Password"><div id="err"></div><div class="r"><button onclick="closeLock()">Cancel</button><button class="go" onclick="unlock()">Unlock</button></div></div></div>
+<script>
+const D={"tf": ["The word “physics” comes from the Greek word phusis, meaning nature.", "Acoustics is the branch of physics that studies light.", "Parts of geology, such as radioactive dating, rely heavily on physics.", "Marie Curie was the first woman to win a Nobel Prize.", "Isaac Newton is famous for developing the theory of relativity.", "Physics developed from the Renaissance to the end of the 19th century is called classical physics.", "Michael Faraday contributed to the study of electromagnetic induction and electrolysis.", "Optics deals with the structure and reactions of the nuclei of atoms.", "James Joule discovered the relationship between heat and mechanical work.", "Temperature in the Celsius scale is an example of an interval scale.", "An interval scale has a true zero point.", "The second (s) is the SI unit of time.", "One kilometer is equal to 100 meters.", "There are seven fundamental (basic) physical quantities.", "Density is a fundamental physical quantity.", "A scalar quantity has both magnitude and direction.", "Velocity is a vector quantity.", "The prefix “kilo” represents 10⁶.", "The number 2000.0 has five significant figures.", "It is safe to taste chemicals in the laboratory if the teacher is absent."], "mc": [["The Greek word phusis, from which “physics” comes, means:", ["life", "nature", "matter", "light"]], ["Which branch of physics studies sound?", ["Thermodynamics", "Optics", "Nuclear physics", "Acoustics"]], ["Which branch of physics studies the behavior and properties of light?", ["Optics", "Acoustics", "Thermodynamics", "Mechanics"]], ["Thermal energy and the transfer of heat are studied in:", ["Mechanics", "Optics", "Thermodynamics", "Acoustics"]], ["Which science applies physics to astronomical objects and phenomena?", ["Geology", "Astrophysics", "Biophysics", "Acoustics"]], ["The two aspects of electromagnetism are:", ["electricity and magnetism", "heat and sound", "light and sound", "force and motion"]], ["Quantum mechanics deals with the behavior of:", ["cars and trains", "planets", "smallest particles such as electrons", "sound waves"]], ["Which field applies physics to study biological phenomena?", ["Geophysics", "Medical physics", "Chemistry", "Biophysics"]], ["X-rays and MRI are applications of:", ["Geophysics", "Medical physics", "Biophysics", "Astrophysics"]], ["Who first studied the solar system with a telescope?", ["Galileo Galilei", "Isaac Newton", "Michael Faraday", "James Joule"]], ["Who is famous for the laws of motion and gravity?", ["Galileo", "Faraday", "Isaac Newton", "Marie Curie"]], ["Who carried out pioneering research on radioactivity?", ["Einstein", "Joule", "Faraday", "Marie Curie"]], ["The theory of relativity was developed by:", ["Newton", "Albert Einstein", "Curie", "Joule"]], ["Which is NOT a branch of physics?", ["Optics", "Acoustics", "Thermodynamics", "Evolution"]], ["Which scientist discovered electromagnetic induction?", ["Galileo", "Newton", "Michael Faraday", "Einstein"]], ["Which measurement scale has a true zero and allows addition, subtraction, multiplication and division?", ["Nominal", "Ordinal", "Interval", "Ratio"]], ["Hair colour (black, brown) is an example of which scale?", ["Nominal", "Ordinal", "Interval", "Ratio"]], ["Your class rank is an example of which scale?", ["Nominal", "Ordinal", "Interval", "Ratio"]], ["Temperature in °C is measured on which scale?", ["Ratio", "Nominal", "Interval", "Ordinal"]], ["How many fundamental physical quantities are there?", ["5", "7", "6", "9"]], ["The SI unit of mass is the:", ["gram", "tonne", "kilogram", "quintal"]], ["The second is defined using the radiation of which atom?", ["Cesium-133", "Hydrogen", "Uranium", "Carbon-12"]], ["The SI unit of temperature is the:", ["Celsius", "Fahrenheit", "Joule", "Kelvin"]], ["Which is NOT a fundamental quantity?", ["Mass", "Speed", "Time", "Length"]], ["Mass is measured with a:", ["ruler", "stopwatch", "beam balance", "thermometer"]], ["3.24 × 10³ is equal to:", ["3240", "324", "32 400", "0.00324"]], ["Significant figures in 2000.0:", ["1", "5", "4", "2"]], ["The prefix for 10⁻⁶ is:", ["milli", "nano", "micro", "pico"]], ["A nanosecond is:", ["10⁹ s", "10⁻⁹ s", "10⁻⁶ s", "10⁻¹² s"]], ["1 kilogram equals:", ["100 g", "10 g", "0.001 g", "1000 g"]], ["200 m expressed in kilometers is:", ["2 km", "0.02 km", "0.2 km", "20 km"]], ["How many seconds are in 2 hours?", ["3600 s", "7200 s", "120 s", "720 s"]], ["Which of these is a vector quantity?", ["Mass", "Time", "Force", "Energy"]], ["Which of these is a scalar quantity?", ["Displacement", "Force", "Acceleration", "Mass"]], ["Which is a derived SI unit?", ["Newton", "Kelvin", "Ampere", "Mole"]], ["The unit of force (newton) in base units is:", ["kg·m²/s²", "kg·m/s²", "kg/(m·s²)", "m/s²"]], ["Density is mass divided by:", ["area", "volume", "time", "length"]], ["One quintal equals:", ["100 kg", "10 kg", "1000 kg", "50 kg"]], ["Which is a correct laboratory safety rule?", ["Taste chemicals gently", "Work alone", "Wear open sandals", "Report all accidents to the teacher"]], ["Measurement is best described as:", ["counting objects", "comparing an unknown quantity with a known unit", "guessing a size", "drawing a scale"]]], "ma": {"L": ["Acoustics", "Optics", "Thermodynamics", "Nuclear physics", "Astrophysics", "Electromagnetism", "Mechanics"], "R": ["Behavior and properties of light", "Motion of objects, with or without force", "Sound: its production, transmission and effects", "Electric fields and magnetic fields", "Thermal energy and heat transfer", "Astronomical objects and phenomena", "Structure and reactions of atomic nuclei"]}, "mb": {"L": ["Length", "Mass", "Time", "Temperature", "Force"], "R": ["newton (N)", "kilogram (kg)", "kelvin (K)", "second (s)", "meter (m)"]}, "calc": [{"t": "Convert 0.831 nm to:", "h": "Type the number, e.g. 0.002 or 2×10^-3 (or 2e-3).", "items": ["a. micrometer (µm)", "b. millimeter (mm)", "c. picometer (pm)", "d. decimeter (dm)"]}, {"t": "Write the following in scientific notation:", "h": "Type like 8.5×10^-10 (or 8.5e-10). Use a number from 1 to 9.99… times a power of 10.", "items": ["A. 0.00000000085", "B. 0.0356", "C. 356", "D. 2180000000", "E. 456.832", "F. 0.00001", "G. 100000"]}, {"t": "Write the following using an SI prefix:", "h": "Give a number between 0.1 and 1000 with a prefix, e.g. 5 k or 5 kilo. Use µ or u for micro.", "items": ["A. 2.4×10⁶", "B. 2.4×10⁻⁶", "C. 240×10⁷", "D. 0.004×10⁸", "E. 0.00000753", "F. 0.000000753", "G. 0.000756", "H. 9800000000", "I. 98000", "J. 98000000"]}]};
+D.calc.push({"t":"A square courtyard measures 12 m on each side. How many square tiles of area 0.16 m² are needed to pave the entire floor?","h":"Type the number.","items":["Number of tiles"]},{"t":"An experiment runs for 4.25 hours. Express this time in:","h":"Type the number only.","items":["a. minutes","b. seconds"]},{"t":"On the left pan of a beam balance a storekeeper places 2 kg, 450 g, 80 g and 3.5 g. What total mass must be placed on the right pan to balance?","h":"Type the number only.","items":["a. in grams (g)","b. in kilograms (kg)"]});D.cls=["Distance", "Displacement", "Speed", "Velocity", "Acceleration", "Mass", "Time", "Force", "Work", "Energy", "Temperature", "Heat", "Power", "Weight", "Momentum", "Torque", "Density", "Pressure", "Area", "Volume", "Electric current", "Electric field", "Electric potential", "Electric flux", "Magnetic field", "Magnetic flux"];
+D.mc.push(...[["Convert a density measurement of 2.7 g/cm³ into SI base units (kg/m³).", ["2.7×10⁶ kg/m³", "2700 kg/m³", "0.0027 kg/m³", "27 kg/m³"]], ["A classroom floor measures 10 m by 8 m. How many rectangular floor tiles of dimensions 40 cm by 25 cm are needed to cover the entire floor?", ["8000", "800", "80"]], ["A container has a total volume of 0.08 m³. What is this volume in cubic centimeters (cm³)?", ["8.0×10⁸ cm³", "8.0×10⁴ cm³", "8.0×10² cm³", "8.0×10³ cm³"]], ["What is the correct number of significant figures in the measurement 0.007050 kg?", ["4", "7", "3", "6"]], ["Which set contains ONLY scalar quantities?", ["Displacement, velocity, acceleration, force", "Mass, speed, temperature, electric charge", "Distance, momentum, energy, power", "Volume, density, force, time"]], ["Which of the following physical quantities is categorized on a ratio scale rather than an interval scale?", ["Calendar years", "Temperature in Celsius", "Temperature in Kelvin", "Time of day on a clock"]], ["What is the equivalent value of 4.5 × 10⁻⁴ written as an ordinary decimal number?", ["0.00045", "0.0045", "0.000045", "45,000"]], ["If a patient’s age is given as 32½ years, what is their exact age expressed in months?", ["384 months", "390 months", "360 months", "400 months"]], ["The average distance from the Earth to the Sun is approximately 1.5 × 10¹¹ m. Express this distance using the appropriate SI prefix (gigameter, Gm).", ["1.5 × 10² Gm (or 150 Gm)", "1.5 × 10⁵ Gm", "1.5 × 10⁻² Gm", "15 Gm"]], ["A student measures the length of a corridor and records it as 12 m and 45 cm. What is the total length expressed in centimeters?", ["1245 cm", "1204.5 cm", "145 cm", "12.45 cm"]], ["Which of the following pairs contains only fundamental (basic) physical quantities in the SI system?", ["Length, Mass, Velocity", "Temperature, Current, Area", "Time, Mass, Luminous Intensity", "Force, Work, Power"]], ["Why are traditional measuring methods, such as using a footstep, cubit or palm span, discouraged in modern scientific measurements?", ["They are too expensive to use.", "They have no uniform standard, leading to bias and inaccuracy.", "They can only measure time and never length.", "They violate the laws of quantum mechanics."]]]);
+const BLOB="AAAfDEJyM19yfRkLHAh8ZxtyGhVwHAl8ZxsRJFYlNE05JEpwNE0lI1A1NBkjKEw+IwJwKEkkLlojZ0okMl05IkpwK1A3L01+ZWR8Z2JhaxlyZWR8Z2JhaxlyZWR8Z2JgaxlyCVwnM1Y+fRk8Jk4jZ1Y2Z1Q/M1A/KRkxKV1wIEsxMVAkPhdwFVw8Jk05MVAkPgNwAlA+NE01Lld+ZWR8Z2JhaxlyZWR8Z2JhaxlyZWR8Z2JgaxlyE1ExMxk5NBk+Mlo8IlgiZ0k4Pko5JEprZ1YgM1AzNBk0Ilg8NBknLk04Z1U5IFEkaRsNaxkLdhVwZRsNaxkLdhVwZRsNaxkLdxVwZXY+K0BwJhkiJk05KBkjJFg8Ihk4JkpwJhkkNUw1Z0M1NVZ+ZWR8Z2JhaxlyZWR8Z2Jgaxlydhk7KhltZwhgdwlwKhdyGhVwHAh8ZxtyGhVwHAl8ZxsUIlcjLk0pZwRwKlgjNBmT8BkmKFUlKlx8Z0o/Z1AkZ1AjZ101NVAmIl1+ZWR8Z2JgaxlyFFoxK1giNBk4Jk81Z1QxIFc5M0w0Ihk/KVUpfBkmIlokKEsjZ1g8NFZwL1gmIhk0Lks1JE05KFd+ZWR8Z2JhaxlyZWR8Z2JgaxlyLFA8KBltZwhghYprZ1Q1IFhwehlhd9vR8RdyGhVwHAh8ZxtyGhVwHAl8ZxseAm8VFRkkJkokIhkzL1w9LloxK0pwLldwM1E1Z1UxJRdyGmR8Zxs9JBtqZ2JhaxljaxlgaxliaxlhaxlgaxliaxljaxlhaxlgaxliaxljaxlhaxljaxliaxljaxlgaxlhaxliaxlhaxliaxlgaxljaxlhaxliaxlgaxlhaxliaxlhaxljaxliaxlhaxliaxljaxlgaxlhaxlhaxlgaxljaxlhaxlhaxlhaxlhaxlgaxlhaxliaxlgaxlhaxlgaxlgaxliaxlhGhVwZVQxZQNwHAt8Zwl8Zw18Zw98Zwx8Zwp8ZwgNaxlyKltyfRkLcxVwdhVwdBVwdRVwd2R8ZxszJlUzZQNwHGJyMRt8Zwl+dwlgfwphaxlyfxdjdhmT0Blhd9vR/NvR8xmS8lRyGhVwHBsmZRVwfxdjdlx9dw58ZxtoaQphZ/rHZwhgpbjrpbjnZ1Q9ZWR8Z2JyMRt8ZwFjdhVwZQFjdhkgKhsNaxkLZU9yaxloaQphIhRgfhVwZQF+dAhwhK5wdgmyxoKyxoBwI1RyGhVwHBsjZRVwfxdlIhRhdxVwZQF+chmT0Blhd9vR/PvppbjgZWR8Z2JyNBt8Zwl+dwplcRVwZQp+cg9whK5wdgmyxoKS9RsNaxkLZUpyaxljcg98ZxtjaQxmZ/rHZwhghYtyGhVwHBsjZRVwdQhodwlgdwlgdxdgaxlydRdhfxmT0Blhd9vR/hsNaxkLZUpyaxlkcg9+fwpiaxlycxdlcQFjdRmT0Blhd/viZWR8Z2JyNBt8Zwg1agllaxlydhmT0Blhd9vR/NvR8hsNaxkLZUpyaxlhdwlgdwl+dxVwZQhwhK5wdgmyxoxyGhVwHBsgZRVwdQ1gdwlgdxdgaxlydRdkZ3Rwb1Q1IFh5ZWR8Z2JyNxt8Zwt+c1x9dw98ZxtiaQ1whYxwb1Q5JEs/bhsNaxkLZUlyaxlicwlgdwlgdwlgaQl8ZxtiaQ1wABl4IFA3JhByGhVwHBsgZRVwcwlgdwlgaQl8ZxtkdwlwLBl4LFA8KBByGhVwHBsgZRVwcBdldFx9dw98ZxtnaQxjZ/vlZxE9LloiKBByGhVwHBsgZRVwcBdldFx9dw58ZxtncgpwKRl4KVg+KBByGhVwHBsgZRVwdxdgdwlncg98Zxtncg9whYxwb1Q5JEs/bhsNaxkLZUlyaxlpfwlgdwlgdwlgaQl8ZxtpaQFwABl4IFA3JhByGhVwHBsgZRVwfgFgdwl+dxVwZQBoZ1Jwb1I5K1Z5ZWR8Z2JyNxt8ZwBodwlgdwlgaQl8ZxtpfxkdZxE9Il4xbhsNaxkLZU9yaxlpdwl8ZxtpdwlwM1A8IkpyGhVwHBsmZRVwdQxlaxlydQxlZ1Q5KUwkIkpyGhVwHBsmZRVwdgxjdwl8ZxthchljdwlwNFwzKFc0NBsNaxkLZU9yaxlicgpjaQx8ZxticgpjaQxwIBsNaxkLZU9yaxliaQxjdAx8ZxtiaQxjdAxwLF5yGmR8ZxszK0pyfRkLHAl8Zwl8Z2JyKht8Zxs9Ik01NRt8Zxs9Ik01NVRyaxlyKlwkNVxyaxlyKlwkNVw9ZWR8Zxs9Ik01NRl4KhByGhVwHAh8Zwl8Z2JyKht8Zxs9Ik01NRt8Zxs9Ik01NVRyaxlyKlwkNVxyaxlyKlwkNVw9ZWR8Zxs9Ik01NRl4KhByGhVwHAl8Zwh8Z2JyKhYjZRVwZVQ1M1wiN1wiNFwzKFc0ZRVwZVQ1M1wiN1wiNFwzKFc0KhYjZRVwZVQ1M0s1N1wiNFwzKFc0ZRVwZVQ1M0s1N1wiNFwzKFc0KhYjZRVwZVQjaghyGhVwZVQ1M1wiZ0k1NRkjIlo/KV1wb1R/NBByGhVwHAh8Zwh8Z2JyKhYjZRVwZVQ1M1wiN1wiNFwzKFc0ZRVwZVQ1M1wiN1wiNFwzKFc0KhYjZRVwZVQ1M0s1N1wiNFwzKFc0ZRVwZVQ1M0s1N1wiNFwzKFc0KhYjZRVwZVQjaghyGhVwZVQ1M1wiZ0k1NRkjIlo/KV1wb1R/NBByGhVwHAh8Zwh8Z2JyKhYjdRt8Zxs9Ik01NUk1NUo1JFY+I0ohMlgiIl1yaxlyKlwkIksgIksjIlo/KV0jNkwxNVw0KhYjdRt8Zxs9Ik0iIkk1NUo1JFY+I0ohMlgiIl1yaxlyKlwkNVwgIksjIlo/KV0jNkwxNVw0KhYjdRt8Zxs9NBRiZWR8Zxs9Ik01NRkgIktwNFwzKFc0Z0ohMlgiIl1wb1R/NPvibhsNaxkLdxVwdxVwHBs7IBt8Zxs7LlU/IEsxKht8Zxs7LlU/IEsxKlI3ZWR8Zxs7LlU/IEsxKhl4LF55ZWR8Z2JgaxlgaxkLZUpyaxlyNFwzZRVwZUo1JFY+Ixt8ZxsjIlo/KV0jZWR8ZxsjIlo/KV1wb0p5ZWR8Z2JhaxlhaxkLZVI3KhYjdRt8Zxs+ZRVwZVc1ME0/KRt8Zxs+Ik4kKFc+ZWR8Zxs+Ik4kKFdwb3d5ZWR8Z2JgaxlhaxkLZVNyaxlyLVYlK1xyaxlyLVYlK1w6ZRVwZVI3Kgt/NAtyaxlyKVRyGhVwZVM/MlU1ZxEabhsNaxkLdxVwdhVwHBs6ZRVwZVM/MlU1ZRVwZVM/MlU1LRt8Zxs7IFRiaEpiZRVwZVc9ZWR8Zxs6KEw8Ihl4DRByGhVwHAl8Zwl8Z2JyLBt8Zxs7IlUmLldyaxlyLFw8MVA+LBsNaxlyLFw8MVA+ZxEbbhsNaxkLdxVwdhVwHBs6ZRVwZVM/MlU1ZRVwZVM/MlU1LRt8Zxs7IFRiaEpiZRVwZVc9ZWR8Zxs6KEw8Ihl4DRByGhVwHAl8Zwh8Z2JyLRYjZRVwZU5yaxlyMFgkMxt8ZxsnJk0kMBsNaxlyMFgkMxl4EBByGhVwHAh8Zwh8Z2JyLF49aEpiZRVwZVdyaxlyKVwnM1Y+ZRVwZVc1ME0/KVdyGhVwZVc1ME0/KRl4CRByGhVwHAh8Zwh8Z2JyLF49aEpyaxlyLF49NBRhZRVwZVI5K1Y3NVg9KlwkIksgIksjIlo/KV1yaxlyLFA8KF4iJlQ9Ik01NUk1NUo1JFY+I1I3KhYjZRVwZVI5K1Y3NVg9KlwkNVwgIksjIlo/KV1yaxlyLFA8KF4iJlQ9Ik0iIkk1NUo1JFY+I1I3KhYjZRVwZVcjZWR8Zxs7LlU/IEsxKhk9Ik01NRkgIktwNFwzKFc0ZxE7IPvnKhYjbhsNaxkLdhVwdhVwHBs7IFRiaEpiZRVwZVc1ME0/KVQ1M1wiZRVwZVc1ME0/KVQ1M1wiKVRyaxlyKVwnM1Y+KlwkNVxyaxlyKVwnM1Y+KlwkNVw+Kht8Zxs+KhsNaxlyKVwnM1Y+Z1Q1M1wiZxEehY49bhsNaxkLdxVwdhVwHBs7IBY9dBt8Zxs7IFR9dBt8Zxs7LlU/IEsxKkk1NVolJVAzKlwkIktyaxlyLFA8KF4iJlQgIkszMls5JFQ1M1wiLF5/KgpyaxlyLFA8KF4iJlQgIkszMls5JFQ1M0s1ZRVwZVI5K1Y3NVg9N1wiJEwyLlo9Ik0iIlI3aFRjZWR8Zxs7LlU/IEsxKhkgIktwJEwyLlpwKlwkIktwb1I3aFSS9BByGhVwHAl8Zwh8Z2JyKRY9dRt8ZxsgJht8ZxsgJkozJlVyaxlyN1gjJFg8N1hyGhVwZUkxNFoxKxl4F1h5ZWR8Z2JgaxlhaxkLZVRiZRVwZUohMlgiIlQ1M1wiZRVwZUohMlgiIlQ1M1wiKgtyaxlyNEglJks1KlwkNVxyaxlyNEglJks1KlwkNVw9dRsNaxlyNEglJks1Z1Q1M1wiZxE9hYt5ZWR8Z2JgaxlhaxkLZVolJVAzKlwkIktyaxlyJEwyLlo9Ik01NVRjZRVwZVolJVAzKlwkNVxyaxlyJEwyLlo9Ik0iIlRjZRVwZVRjZWR8ZxszMls5JBk9Ik01NRl4KvvjbhsNaxkLdxVwdxVwHBsxZRVwZVg9Nxt8ZxsxKkk1NVxyaxlyJlQgIks1JhsNaxlyJlQgIks1ZxERbhsNaxkLdhVwdhVwHBs+aFpyaxlyKVwnM1Y+N1wiJFYlK1Y9JRt8Zxs+Ik4kKFcgIkszKEw8KFQyKRYzZRVwZU9/KhsNaxlyKVwnM1Y+Z0k1NRkzKEw8KFQyZxEeaHp5ZWR8Z2JgaxlhaxkLZVN/JBt8ZxsmZRVwZU8/K01yaxlyMVY8M09yGhVwZU8/K01wb295ZWR8Z2JgaxlhaxkLZVc1ME0/KVQ1M1wiNEglJks1I0k1NVo/MlU/KltyaxlyKVwnM1Y+KlwkIksjNkwxNVw0N1wiJFYlK1Y9JVc9dRYzZRVwZVc1ME0/KVQ1M0s1NEglJks1I0k1NVo/MlU/KltyaxlyKVwnM1Y+KlwkNVwjNkwxNVw0N1wiJFYlK1Y9JVc9dRYzZRVwZVc9dRYzZRVwZU89ZWR8Zxs+Ik4kKFdwKlwkIktwNEglJks1IxkgIktwJFYlK1Y9JRl4CfvnKvviaHp5ZWR8Z2JhaxlhaxkLZU1yaxlyM1wjK1hyaxlyM1wjK1gkZRVwZU4yaFRiZWR8ZxskIko8Jhl4ExByGhVwHAl8Zwh8Z2JyM1RiZRVwZU8jZRVwZU4yZRVwZU41JVwiZRVwZU41JVwiMFtyGhVwZU41JVwiZxEHJRByGmQt";
+const S=[["tf","True / False",20],["mc","Multiple Choice",52],["ma","Matching A",7],["mb","Matching B",5],["calc","Calculations",26],["cls","Classification",1]];
+const IC={tf:"✅",mc:"📝",ma:"🔗",mb:"🔗",calc:"🧮",cls:"🧭"},TOT=S.reduce((a,s)=>a+s[2],0);document.querySelector("#tot").textContent=TOT;
+const ans={tf:{},mc:{},ma:{},mb:{},calc:{},cls:{}},sc={tf:0,mc:0,ma:0,mb:0,calc:0,cls:0},B={tf:[],mc:[]},sel={ma:{},mb:{}};
+let KEY=null,graded=false;
+const $=s=>document.querySelector(s),E=(t,c)=>{const e=document.createElement(t);if(c)e.className=c;return e};
+const shuf=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a};
+const ph=(ic,t,s)=>`<div class="ph"><div><h2>${t}</h2><p>${s}</p></div></div>`;
+const ord={ma:shuf(D.ma.R.map((_,i)=>i)),mb:shuf(D.mb.R.map((_,i)=>i))};
+
+/* copy / select protection (a deterrent for students) */
+const inp=e=>e.target&&e.target.tagName==='INPUT';
+['copy','cut','contextmenu','dragstart','selectstart'].forEach(t=>document.addEventListener(t,e=>{if(!inp(e))e.preventDefault()}));
+document.addEventListener('keydown',e=>{const k=(e.key||'').toLowerCase();
+if(e.key==='F12'||((e.ctrlKey||e.metaKey)&&e.shiftKey&&'ijc'.includes(k))||((e.ctrlKey||e.metaKey)&&'usp'.includes(k))||((e.ctrlKey||e.metaKey)&&'cax'.includes(k)&&!inp(e)))e.preventDefault();
+if(e.key==='Enter'&&$('#lock').style.display==='grid')unlock()});
+
+const r2=x=>Math.round(x*100)/100;
+function upd(){let a=0,t=0;S.forEach(([k,,n])=>{let c=Object.keys(ans[k]).length;const raw=c;if(k=='cls')c=c/78;a+=c;t+=sc[k];$('#b'+k).textContent=k=='cls'?(graded?r2(sc[k])+'/1':raw+'/78'):(graded?sc[k]:c)+'/'+n});
+$('#score').textContent=r2(graded?t:a);$('#lab').textContent=graded?'correct':'answered';$('#bar').style.width=(graded?t:a)/TOT*100+'%'}
+
+/* True/False and Multiple Choice */
+function mk(k,items,opts){const p=$('#p'+k);items.forEach((x,i)=>{const c=E('div','q'),o=E('div','o'+(opts?'':' two'));c.innerHTML=`<div class="n">${i+1}</div><p>${opts?x[0]:x}</p>`;
+const labels=opts?x[1]:['True','False'];
+const bs=labels.map((t,j)=>{const b=E('button'),ch=E('i'),sp=E('span');ch.textContent=opts?'ABCD'[j]:(j?'✗':'✓');sp.textContent=t;if(opts)b.append(ch,sp);else b.append(sp);b.onclick=()=>{if(graded)return;ans[k][i]=j;paint(k);upd()};o.append(b);return b});
+c.append(o);p.append(c);B[k].push({c,bs})})}
+function paint(k){B[k].forEach((q,i)=>{const a=ans[k][i];q.c.querySelectorAll('.ex').forEach(e=>e.remove());
+const cor=graded?(k=='tf'?(KEY.tf[i][0]?0:1):KEY.mc[i]):-1;
+q.bs.forEach((b,j)=>{b.className='';b.disabled=graded;if(!graded&&a===j)b.classList.add('s');if(graded){if(j===cor)b.classList.add('ok');else if(a===j)b.classList.add('no')}});
+if(graded&&k=='tf'&&a!==cor&&KEY.tf[i][1]){const e=E('p','ex');e.textContent='💡 '+KEY.tf[i][1];q.c.append(e)}})}
+
+/* Matching */
+function rm(k){const M=D[k],pr=ans[k],inv={},c=$('#c'+k);Object.entries(pr).forEach(([l,r])=>inv[r]=+l);c.innerHTML='';
+const L=E('div','col'),R=E('div','col');
+const mkb=(t,cls,hue)=>{const b=E('button','mi'+cls);b.textContent=t;if(hue!=null)b.style.setProperty('--h',hue*47);b.disabled=graded;return b};
+const pair=()=>{const s=sel[k];if(s.l!=null&&s.r!=null){pr[s.l]=s.r;sel[k]={}}rm(k);upd()};
+M.L.forEach((t,i)=>{const has=pr[i]!==undefined;let cls=has&&!graded?' p':'';if(sel[k].l===i)cls=' s';
+if(graded)cls=pr[i]===KEY[k][i]?' ok':' no';
+const b=mkb(t,cls,i);if(graded&&pr[i]!==KEY[k][i]){const e=E('div','ex');e.textContent='✔ '+M.R[KEY[k][i]];b.append(e)}
+b.onclick=()=>{if(graded)return;if(has){delete pr[i];sel[k].l=null;rm(k);upd();return}sel[k].l=i;pair();if(sel[k].l!=null)rm(k)};L.append(b)});
+ord[k].forEach(r=>{const l=inv[r],has=l!==undefined;let cls=has&&!graded?' p':'';if(sel[k].r===r)cls=' s';
+if(graded)cls=has&&KEY[k][l]===r?' ok':' no';
+const b=mkb(M.R[r],cls,has?l:null);
+b.onclick=()=>{if(graded)return;if(has){delete pr[l];sel[k].r=null;rm(k);upd();return}sel[k].r=r;pair();if(sel[k].r!=null)rm(k)};R.append(b)});
+c.append(L,R)}
+
+S.forEach(([k,l,n],i)=>{const b=E('button',i?'':'on');b.innerHTML=`${IC[k]} ${l}<small id="b${k}">0/${n}</small>`;b.onclick=()=>{document.querySelectorAll('.tabs button,.pn').forEach(x=>x.classList.remove('on'));b.classList.add('on');$('#p'+k).classList.add('on')};$('#tabs').append(b);
+const p=E('div','pn'+(i?'':' on'));p.id='p'+k;$('#pns').append(p)});
+$('#ptf').insertAdjacentHTML('afterbegin',ph('✅','True or False','Decide whether each statement is true or false.'));
+$('#pmc').insertAdjacentHTML('afterbegin',ph('📝','Multiple Choice','Choose the one best answer for each question.'));
+mk('tf',D.tf,0);mk('mc',D.mc,1);
+[['ma','Match each branch of physics (Unit 1) with its description'],['mb','Match each physical quantity (Unit 2) with its SI unit']].forEach(([k,t])=>{
+$('#p'+k).innerHTML=`${ph('🔗',t,'Tap an item on the left, then its match on the right. Tap a matched item to undo.')}<div class="m" id="c${k}" style="display:grid"></div>`;
+$('#c'+k).style.display='grid';rm(k)});
+
+
+/* Calculations (typed answers) */
+const CI=[],PW={mega:6,giga:9,kilo:3,micro:-6,nano:-9,milli:-3,pico:-12,tera:12},PS={T:12,G:9,M:6,k:3,m:-3,'µ':-6,'μ':-6,u:-6,n:-9,p:-12},SUP='⁻⁰¹²³⁴⁵⁶⁷⁸⁹';
+function mkcalc(){const p=$('#pcalc');p.innerHTML=ph('🧮','Calculations','Conversions, scientific notation, SI prefixes and word problems — type your answers.');let n=0;
+D.calc.forEach((g,gi)=>{const c=E('div','q');c.innerHTML=`<div class="n">${gi+1}</div><p>${g.t}</p>`;
+if(g.h){const h=E('p','hint');h.style.fontWeight='400';h.textContent=g.h;c.append(h)}
+g.items.forEach(lb=>{const i=n++,r=E('div','cr'),l=E('label'),inp=E('input'),ex=E('div','ex');l.textContent=lb;inp.type='text';inp.autocomplete='off';inp.autocapitalize='off';inp.spellcheck=false;
+inp.oninput=()=>{const v=inp.value.trim();if(v)ans.calc[i]=v;else delete ans.calc[i];upd()};
+r.append(l,inp,ex);c.append(r);CI.push({inp,ex})});p.append(c)})}
+function parse(s){s=s.replace(/[\s,]/g,'').replace(/[−–]/g,'-').replace(/[⁻⁰¹²³⁴⁵⁶⁷⁸⁹]+/g,m=>'^'+m.replace(/./g,c=>SUP.indexOf(c)==0?'-':SUP.indexOf(c)-1));
+let a=s.match(/^10\^\(?([+-]?\d+)\)?(.*)$/);if(a)return{mant:1,ex:+a[1],sci:true,rest:a[2]};
+a=s.match(/^([+-]?(?:\d+\.?\d*|\.\d+))(?:[x×*]10\^?\(?([+-]?\d+)\)?|e([+-]?\d+))?(.*)$/i);if(!a)return null;
+const e=a[2]!==undefined?a[2]:a[3];return{mant:+a[1],ex:e!==undefined?+e:0,sci:e!==undefined,rest:a[4]}}
+function check(q,v){const t=q[0],tv=q[1],p=parse(v);if(!p)return false;let val=p.mant*Math.pow(10,p.ex);
+if(t=='p'){let pe=null;const w=p.rest.match(/^(mega|giga|kilo|micro|nano|milli|pico|tera)/i);
+if(w)pe=PW[w[1].toLowerCase()];else if(p.rest&&PS[p.rest[0]]!==undefined)pe=PS[p.rest[0]];
+if(pe===null||val<0.1||val>=1000)return false;val=val*Math.pow(10,pe)}
+else if(t=='s'&&(!p.sci||p.mant<1||p.mant>=10))return false;
+return Math.abs(val-tv)<=1e-9*Math.abs(tv)}
+function pc(){CI.forEach((o,i)=>{const q=KEY.calc[i],v=ans.calc[i],ok=v!==undefined&&check(q,v);o.inp.disabled=true;o.inp.className=ok?'ok':'no';if(!ok)o.ex.textContent='✔ '+q[2]})}
+mkcalc();
+
+/* Classification */
+const CL=[],SUP2={'⁻':'-','⁰':'0','¹':'1','²':'2','³':'3','⁴':'4','⁵':'5','⁶':'6','⁷':'7','⁸':'8','⁹':'9'};
+function nu(s){return s.toLowerCase().replace(/[⁻⁰¹²³⁴⁵⁶⁷⁸⁹]/g,c=>SUP2[c]).replace(/[−–]/g,'-').replace(/[\s·⋅*×.^()]/g,'')}
+function mkcls(){const p=$('#pcls'),LT='ABCDEFGHIJKLMNOPQRSTUVWXYZ';p.innerHTML=ph('🧭','Classification','Scalar or vector, basic or derived, and the SI unit of each quantity.');const card=E('div','q ct');card.innerHTML='<div class="n">1</div><p>Classify each of the following physical quantities as scalar or vector, and as basic or derived. Then write its SI unit.</p><p class="hint" style="font-weight:400;margin-left:34px">Tap one option in each pair, then type the SI unit — the name or the symbol is accepted (e.g. kilogram or kg).</p>';p.append(card);
+D.cls.forEach((nm,i)=>{const r=E('div','cro'),l=E('div','cn'),ex=E('div','ex'),gs=[];l.innerHTML=`<b>${LT[i]}</b>${nm}`;r.append(l);
+[['Scalar','Vector'],['Basic','Derived']].forEach((ops,j)=>{const g=E('div','sg'),bs=ops.map((o,x)=>{const b=E('button');b.textContent=o;b.onclick=()=>{if(graded)return;const k=i*3+j;if(ans.cls[k]===x)delete ans.cls[k];else ans.cls[k]=x;bs.forEach((y,z)=>y.classList.toggle('s',ans.cls[k]===z));upd()};g.append(b);return b});r.append(g);gs.push({g,bs})});
+const u=E('input');u.type='text';u.placeholder='SI unit';u.autocomplete='off';u.autocapitalize='off';u.spellcheck=false;
+u.oninput=()=>{const v=u.value.trim();if(v)ans.cls[i*3+2]=v;else delete ans.cls[i*3+2];upd()};r.append(u);r.append(ex);card.append(r);CL.push({gs,u,ex})})}
+function pcls(cp){CL.forEach((o,i)=>{const q=KEY.cls[i],a=ans.cls,ok=[a[i*3]===q[0],a[i*3+1]===q[1],a[i*3+2]!==undefined&&q[2].includes(nu(a[i*3+2]))];
+o.gs.forEach((x,j)=>{x.g.className='sg '+(ok[j]?'ok':'no');x.bs.forEach(b=>b.disabled=true)});o.u.disabled=true;o.u.className=ok[2]?'ok':'no';
+if(!ok.every(Boolean))o.ex.textContent='✔ '+['Scalar','Vector'][q[0]]+' · '+['Basic','Derived'][q[1]]+' · '+q[3]});
+const sm=E('div','ex');sm.style.fontWeight='600';sm.textContent='Parts correct: '+cp+' / 78  →  '+r2(cp/78)+' / 1';$('#pcls .ct').append(sm)}
+mkcls();
+
+/* Password-protected answer key */
+function openLock(){$('#err').textContent='';const left=S.reduce((a,[k])=>a+N[k]-Math.min(Object.keys(ans[k]).length,N[k]),0);$('#lock p').textContent=left?left+' part'+(left>1?'s':'')+' still unanswered. Enter the password to check anyway.':'Enter the password to check the answers.';$('#pw').value='';$('#lock').style.display='grid';setTimeout(()=>$('#pw').focus(),50)}
+function closeLock(){$('#lock').style.display='none'}
+function dec(pw){const raw=atob(BLOB),k=new TextEncoder().encode(pw),u=new Uint8Array(raw.length);
+for(let i=0;i<raw.length;i++)u[i]=raw.charCodeAt(i)^k[i%k.length];
+const s=new TextDecoder().decode(u);if(s.slice(0,4)!=='G9OK')return null;try{return JSON.parse(s.slice(4))}catch(e){return null}}
+function unlock(){const pw=$('#pw').value.trim().toUpperCase();const k=pw?dec(pw):null;
+if(!k){$('#err').textContent='Wrong password. Try again.';$('#pw').value='';return}
+KEY=k;graded=true;closeLock();$('#ckb').style.display='none';
+KEY.tf.forEach((x,i)=>{if(ans.tf[i]===(x[0]?0:1))sc.tf++});KEY.mc.forEach((x,i)=>{if(ans.mc[i]===x)sc.mc++});
+['ma','mb'].forEach(m=>KEY[m].forEach((r,i)=>{if(ans[m][i]===r)sc[m]++}));
+KEY.calc.forEach((q,i)=>{if(ans.calc[i]!==undefined&&check(q,ans.calc[i]))sc.calc++});
+KEY.cls.forEach((q,i)=>{const a=ans.cls;if(a[i*3]===q[0])sc.cls++;if(a[i*3+1]===q[1])sc.cls++;if(a[i*3+2]!==undefined&&q[2].includes(nu(a[i*3+2])))sc.cls++});
+const cp=sc.cls;sc.cls=cp/78;
+paint('tf');paint('mc');rm('ma');rm('mb');pc();pcls(cp);upd();
+const t=sc.tf+sc.mc+sc.ma+sc.mb+sc.calc+sc.cls,p=Math.round(t/TOT*100),r=$('#res');r.style.display='block';
+const msg=p>=90?'Outstanding! 🏆':p>=75?'Great job! 🌟':p>=50?'Good effort 👍 Review and try again.':'Keep practicing 📚 You can do it!';
+const rows=S.map(([k,l,n])=>`<div><span>${l}</span><i><b style="width:${sc[k]/n*100}%"></b></i><span>${r2(sc[k])}/${n}</span></div>`).join('');
+r.innerHTML=`<div class="ring" style="--p:${p}"><span>${p}%</span></div><h2>${r2(t)} / ${TOT}</h2><p>${msg}</p><div class="bk">${rows}</div><button onclick="location.reload()">Try again</button>`;
+r.scrollIntoView({behavior:'smooth'})}
+
+/* ===== Extras: ambience, sound, timer, progress, celebration ===== */
+const N={tf:20,mc:52,ma:7,mb:5,calc:26,cls:78},RM=matchMedia('(prefers-reduced-motion:reduce)').matches,mmss=t=>Math.floor(t/60)+':'+String(t%60).padStart(2,'0');
+let AC=null,snd=false,secs=0;
+function tone(f,d=.09,ty='sine',v=.06,at=0){if(!snd)return;try{AC=AC||new(window.AudioContext||window.webkitAudioContext)();const o=AC.createOscillator(),g=AC.createGain(),t=AC.currentTime+at;o.type=ty;o.frequency.value=f;g.gain.setValueAtTime(v,t);g.gain.exponentialRampToValueAtTime(.0001,t+d);o.connect(g);g.connect(AC.destination);o.start(t);o.stop(t+d)}catch(e){}}
+$('#snd').onclick=()=>{snd=!snd;$('#snd').textContent=snd?'🔊':'🔇';tone(660,.1)};
+document.addEventListener('click',e=>{if(e.target.closest&&e.target.closest('.o button,.mi,.sg button')){tone(540,.06,'triangle');if(navigator.vibrate)navigator.vibrate(8)}});
+let TT;function toast(m){const t=$('#toast');t.textContent=m;t.classList.add('on');clearTimeout(TT);TT=setTimeout(()=>t.classList.remove('on'),2400)}
+const TI=setInterval(()=>{secs++;$('#tm').textContent='⏱ '+mmss(secs)},1000);
+
+(function(){const c=document.createElement('canvas');c.id='bg';document.body.prepend(c);const x=c.getContext('2d');let W,H,P=[];
+function rs(){W=c.width=innerWidth;H=c.height=innerHeight;P=Array.from({length:Math.min(42,W/20|0)},()=>({x:Math.random()*W,y:Math.random()*H,vx:(Math.random()-.5)*.35,vy:(Math.random()-.5)*.35,r:1.5+Math.random()*2.5}))}
+function dr(){x.clearRect(0,0,W,H);const cl=getComputedStyle(document.documentElement).getPropertyValue('--pr').trim()||'#5b4bdb';x.fillStyle=x.strokeStyle=cl;
+P.forEach((a,i)=>{a.x=(a.x+a.vx+W)%W;a.y=(a.y+a.vy+H)%H;x.globalAlpha=.3;x.beginPath();x.arc(a.x,a.y,a.r,0,7);x.fill();
+for(let j=i+1;j<P.length;j++){const b=P[j],d=Math.hypot(a.x-b.x,a.y-b.y);if(d<130){x.globalAlpha=.14*(1-d/130);x.beginPath();x.moveTo(a.x,a.y);x.lineTo(b.x,b.y);x.stroke()}}});
+if(!RM)requestAnimationFrame(dr)}
+addEventListener('resize',()=>{rs();if(RM)dr()});rs();dr()})();
+
+/* section completion, milestones, next buttons */
+const _upd=upd,FIRED={},MT=['🚀 25% done — great start!','⚡ Halfway there!','🔥 75% — final stretch!','🎯 All answered! Ready to check?'];let lastMs=0;
+upd=function(){_upd();if(graded)return;let msg='';
+S.forEach(([k,l],i)=>{const d=Object.keys(ans[k]).length>=N[k];$('#tabs').children[i].classList.toggle('dn',d);if(d&&!FIRED[k]){FIRED[k]=1;msg='✅ '+l+' complete!';tone(660,.12);tone(880,.16,'sine',.06,.1)}if(!d)FIRED[k]=0});
+const pr=parseFloat($('#score').textContent)/TOT,m=[.25,.5,.75,1].filter(v=>pr>=v-1e-6).length;
+if(!msg&&m>lastMs)msg=MT[m-1];lastMs=m;if(msg)toast(msg);$('#ckb').classList.toggle('rdy',m===4)};
+S.forEach(([k],i)=>{const b=E('button','nx'),n=S[i+1];b.textContent=n?'Next: '+n[1]+' →':'🔒 Check my answers';
+b.onclick=()=>{if(n){const t=$('#tabs').children[i+1];t.click();$('#tabs').scrollTo({left:Math.max(0,t.offsetLeft-24),behavior:'smooth'});scrollTo({top:0,behavior:'smooth'})}else if(!graded)openLock()};$('#p'+k).append(b)});
+
+/* celebration after grading */
+function confetti(n){if(RM)return;const c=document.createElement('canvas');c.id='cf';document.body.append(c);const x=c.getContext('2d'),W=c.width=innerWidth,H=c.height=innerHeight,cl=['#5b4bdb','#8b5cf6','#06b6d4','#f59e0b','#ef4444','#10b981'];
+const P=Array.from({length:n},()=>({x:W/2+(Math.random()-.5)*W*.3,y:H*.35,vx:(Math.random()-.5)*14,vy:-Math.random()*13-3,w:6+Math.random()*6,h:4+Math.random()*5,r:Math.random()*6,vr:(Math.random()-.5)*.4,c:cl[Math.random()*cl.length|0]}));let f=0;
+(function a(){x.clearRect(0,0,W,H);P.forEach(p=>{p.vy+=.28;p.vx*=.992;p.x+=p.vx;p.y+=p.vy;p.r+=p.vr;x.save();x.translate(p.x,p.y);x.rotate(p.r);x.fillStyle=p.c;x.fillRect(-p.w/2,-p.h/2,p.w,p.h);x.restore()});
+if(++f<200)requestAnimationFrame(a);else c.remove()})()}
+function afterGrade(){clearInterval(TI);$('#snd').style.display='';const r=$('#res'),rg=r.querySelector('.ring'),sp=rg.firstElementChild,p=+rg.style.getPropertyValue('--p');
+const rk=p>=90?'🧠 Einstein level':p>=75?'🍎 Newton level':p>=60?'⚡ Faraday level':p>=40?'🔭 Galileo in training':'🌱 Curious explorer';
+r.querySelector('h2').insertAdjacentHTML('afterend','<div class="rank">'+rk+'</div>');
+r.querySelector('p').insertAdjacentHTML('afterend','<p style="margin-top:6px;font-size:13px">⏱ Finished in '+mmss(secs)+'</p>');
+const rv=E('button','sec');rv.textContent='🔍 Review mistakes';rv.onclick=()=>{const on=document.body.classList.toggle('rev');rv.textContent=on?'👁 Show all questions':'🔍 Review mistakes';scrollTo({top:0,behavior:'smooth'})};r.append(rv);
+if(RM){return}const t0=performance.now();(function f(t){const k=Math.min(1,(t-t0)/1300),e=1-Math.pow(1-k,3);rg.style.setProperty('--p',p*e);sp.textContent=Math.round(p*e)+'%';if(k<1)requestAnimationFrame(f)})(t0);
+if(p>=60){confetti(p>=90?220:140);[523,659,784,1047].forEach((f,i)=>tone(f,.25,'triangle',.07,i*.14))}else tone(330,.4,'sine',.06)}
+const _un=unlock;unlock=function(){const was=graded;_un();if(graded&&!was){clearSave();afterGrade()}};
+
+/* autosave: progress survives refresh / accidental close */
+const SK='g9phys-u12-v1';
+function clearSave(){try{localStorage.removeItem(SK)}catch(e){}}
+function restart(){const n=S.reduce((a,[k])=>a+Object.keys(ans[k]).length,0);if(!graded&&n&&!confirm('Restart and clear all your answers?'))return;clearSave();window.onbeforeunload=null;location.reload()}
+(function(){
+const save=()=>{if(graded)return;try{localStorage.setItem(SK,JSON.stringify({a:ans,s:secs}))}catch(e){}};
+try{const d=JSON.parse(localStorage.getItem(SK)||'null');
+if(d&&d.a){S.forEach(([k])=>{const src=d.a[k];if(src&&typeof src==='object')Object.entries(src).forEach(([i,v])=>{if(typeof v==='number'||typeof v==='string')ans[k][i]=v})});
+secs=+d.s||0;paint('tf');paint('mc');rm('ma');rm('mb');
+Object.entries(ans.calc).forEach(([i,v])=>{if(CI[i])CI[i].inp.value=v});
+Object.entries(ans.cls).forEach(([k,v])=>{const i=Math.floor(k/3),j=k%3,o=CL[i];if(!o)return;if(j===2)o.u.value=v;else o.gs[j].bs.forEach((b,z)=>b.classList.toggle('s',v===z))});
+upd();toast('Welcome back — your progress was restored')}}catch(e){}
+const _u2=upd;upd=function(){_u2();save()};
+window.onbeforeunload=e=>{if(!graded&&Object.values(ans).some(o=>Object.keys(o).length)){e.preventDefault();e.returnValue=''}};
+addEventListener('pagehide',save);
+})();
+</script></body></html>
